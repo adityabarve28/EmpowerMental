@@ -5,7 +5,7 @@
     position: sticky;
     justify-content: center; /* Horizontal alignment to center */
     align-items: center; /* Vertical alignment to center */
-    background-image: url('/Images/EmpowerMental6.6.png');
+    background-image: url('EmpowerMental6.6.png');
     background-repeat: no-repeat;
     background-position: center;
     min-height: 500px; 
