@@ -1,0 +1,35 @@
+#AboutSection{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    position: sticky;
+    justify-content: center; /* Horizontal alignment to center */
+    align-items: center; /* Vertical alignment to center */
+    background-image: url('/Images/EmpowerMental6.6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+#AboutTitle{
+    color: #ffffff;
+    font-size: 80px;
+    text-stroke: 2px #000; /* Set the text stroke width and color */
+    -webkit-text-stroke: 2px #000; /* For Safari/WebKit */
+}
+#About{
+    color: #000000;
+    font-size: 18px;
+    font-family: monospace; /* For the blinking cursor to work well, use a monospace font */
+    overflow: hidden; /* To hide the overflow while typing */
+    white-space: nowrap; /* To keep the text in one line */
+    border-right: 1px solid black; /* The blinking cursor */
+    margin: 0; /* To remove any default margins */
+    animation: typing 10s steps(40, end), blink-caret 0.5s step-end infinite;
+    background-color: #00ffee;
+}

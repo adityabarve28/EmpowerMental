@@ -1,0 +1,23 @@
+#OurClientsSection{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    /* background-image: url('/Images/EmpowerMental6.6.png');
+    background-repeat: no-repeat;
+    background-position: center; */
+
+}
+#TitleOurClients{
+    color: #ffffff;
+    font-size: 80px;
+    text-stroke: 2px #000; /* Set the text stroke width and color */
+    -webkit-text-stroke: 2px #000; /* For Safari/WebKit */
+}
+#ClientNameCol{
+    padding: 20px 20px 20px 20px;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}

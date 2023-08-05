@@ -1,0 +1,34 @@
+#Sectionone{
+background-color: aqua;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center; /* Horizontal alignment to center */
+align-items: center; /* Vertical alignment to center */
+}
+#tagLine{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-stroke: 2px #000; /* Set the text stroke width and color */
+    -webkit-text-stroke: 2px #000; /* For Safari/WebKit */
+}
+#NavBar{
+    background-color: #008cff;
+    position: sticky;
+}
+#Links, #Icons{
+    color: #ffffff;
+}
+#DropDown{
+    background-color: #008cff;
+    
+}
+#Links:hover{
+    background-color: transparent;
+    color: #ffcff1;
+}
+#Icons:hover{
+    background-color: transparent;
+    color: #00ffee;
+}
